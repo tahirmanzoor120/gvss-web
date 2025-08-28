@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "Ladataan...",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Ladataan...",
     "sharedHide": "Piilota",
     "sharedSave": "Tallenna",
     "sharedSaved": "Tallennettu",

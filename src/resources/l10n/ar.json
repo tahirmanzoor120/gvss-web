@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "جاري التحميل...",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"جاري التحميل...",
     "sharedHide": "إخفاء",
     "sharedSave": "حفظ",
     "sharedSaved": "Saved",

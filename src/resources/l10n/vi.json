@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "Đang tải...",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Đang tải...",
     "sharedHide": "Ẩn",
     "sharedSave": "Lưu",
     "sharedSaved": "Saved",

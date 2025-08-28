@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "Завантаження... ",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Завантаження... ",
     "sharedHide": "Приховувати",
     "sharedSave": "Зберегти",
     "sharedSaved": "Saved",

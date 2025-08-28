@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "Betöltés...",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Betöltés...",
     "sharedHide": "Elrejt",
     "sharedSave": "Mentés",
     "sharedSaved": "Saved",

@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "កំពុងផ្ទុក...",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"កំពុងផ្ទុក...",
     "sharedHide": "លាក់",
     "sharedSave": "រក្សារទុក",
     "sharedSaved": "Saved",

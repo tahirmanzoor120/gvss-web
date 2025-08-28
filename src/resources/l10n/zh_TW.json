@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "讀取資料中……",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"讀取資料中……",
     "sharedHide": "隱藏",
     "sharedSave": "存檔",
     "sharedSaved": "已儲存",

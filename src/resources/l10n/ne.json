@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "लोड हुँदै ",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"लोड हुँदै ",
     "sharedHide": "लुकाउने ",
     "sharedSave": "सुरक्षित गर्ने ",
     "sharedSaved": "Saved",

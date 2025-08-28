@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "טוען...",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"טוען...",
     "sharedHide": "הסתר",
     "sharedSave": "שמירה",
     "sharedSaved": "נשמר",

@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "பதிவு செய்",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"பதிவு செய்",
     "sharedHide": "மறை",
     "sharedSave": "சேமி",
     "sharedSaved": "Saved",

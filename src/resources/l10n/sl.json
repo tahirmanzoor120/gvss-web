@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "Nalagam...",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Nalagam...",
     "sharedHide": "Skrij",
     "sharedSave": "Shrani",
     "sharedSaved": "Shranjeno",

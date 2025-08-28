@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "กำลังโหลด...",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"กำลังโหลด...",
     "sharedHide": "ซ่อน",
     "sharedSave": "จัดเก็บแฟ้มข้อมูล",
     "sharedSaved": "บันทึกแล้ว",

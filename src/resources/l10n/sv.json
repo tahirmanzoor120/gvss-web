@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "Laddar...",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Laddar...",
     "sharedHide": "Göm",
     "sharedSave": "Spara",
     "sharedSaved": "Saved",

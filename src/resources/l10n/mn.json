@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "Ачааллаж байна...",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Ачааллаж байна...",
     "sharedHide": "Нуух",
     "sharedSave": "Хадгалах",
     "sharedSaved": "Saved",

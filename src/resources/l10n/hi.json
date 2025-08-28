@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "लोड हो रहा है...",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"लोड हो रहा है...",
     "sharedHide": "छिपाना",
     "sharedSave": "सुरक्षित करें",
     "sharedSaved": "Saved",

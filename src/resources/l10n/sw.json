@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "Inapakia",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Inapakia",
     "sharedHide": "Ficha",
     "sharedSave": "Hifadhi",
     "sharedSaved": "Saved",

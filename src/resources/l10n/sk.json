@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "Načítavam...",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Načítavam...",
     "sharedHide": "Schovať",
     "sharedSave": "Uložiť",
     "sharedSaved": "Uložené",

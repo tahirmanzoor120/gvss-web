@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "Ngarkim…",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Ngarkim…",
     "sharedHide": "Hide",
     "sharedSave": "Ruaj",
     "sharedSaved": "Saved",

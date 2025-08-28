@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "Učitavanje...",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Učitavanje...",
     "sharedHide": "Sakrij",
     "sharedSave": "Spremi",
     "sharedSaved": "Spremljeno",

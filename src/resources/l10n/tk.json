@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "Ýüklenýär...",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Ýüklenýär...",
     "sharedHide": "Gizlemek",
     "sharedSave": "Ýatda saklamak",
     "sharedSaved": "Saved",

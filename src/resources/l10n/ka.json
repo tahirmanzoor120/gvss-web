@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "იტვირთება...",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"იტვირთება...",
     "sharedHide": "დამალვა",
     "sharedSave": "შენახვა",
     "sharedSaved": "Saved",

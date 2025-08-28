@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "පූරණය ස්ථානයේ...",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"පූරණය ස්ථානයේ...",
     "sharedHide": "සඟවන්න",
     "sharedSave": "සුරකින්න",
     "sharedSaved": "Saved",

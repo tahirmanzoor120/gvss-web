@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "Ielādē...",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Ielādē...",
     "sharedHide": "Paslēpt",
     "sharedSave": "Saglabāt",
     "sharedSaved": "Saglabāts",

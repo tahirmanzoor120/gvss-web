@@ -1,5 +1,8 @@
 {
-    "sharedLoading": "Жүктеу...",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Жүктеу...",
     "sharedHide": "Жасыру",
     "sharedSave": "Сақтау",
     "sharedSaved": "Saved",
