@@ -89,6 +89,13 @@ const NotificationPage = () => {
                 titleGetter={(it) => t(prefixString('notificator', it.type))}
                 label={t('notificationNotificators')}
               />
+              {item.notificators?.includes('call') && (
+                <TextField
+                  value={item.attributes && item.attributes.cid ? item.attributes.cid : ''}
+                  onChange={(e) => setItem({ ...item, attributes: { ...item.attributes, cid: e.target.value }})}
+                  label={'Campaign ID (CID)'}
+                />
+              )}
               {item.notificators?.includes('command') && (
                 <SelectField
                   value={item.commandId}
