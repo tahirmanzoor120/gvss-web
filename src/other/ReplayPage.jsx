@@ -191,35 +191,49 @@ const ReplayPage = () => {
           </Toolbar>
         </Paper>
         <Paper className={classes.content} square>
-          {!expanded ? (
-            <>
-              <Typography variant="subtitle1" align="center">{deviceName}</Typography>
-              <Slider
-                className={classes.slider}
-                max={positions.length - 1}
-                step={null}
-                marks={positions.map((_, index) => ({ value: index }))}
-                value={index}
-                onChange={(_, index) => setIndex(index)}
-              />
-              <div className={classes.controls}>
-                {`${index + 1}/${positions.length}`}
-                <IconButton onClick={() => setIndex((index) => index - 1)} disabled={playing || index <= 0}>
-                  <FastRewindIcon />
-                </IconButton>
-                <IconButton onClick={() => setPlaying(!playing)} disabled={index >= positions.length - 1}>
-                  {playing ? <PauseIcon /> : <PlayArrowIcon /> }
-                </IconButton>
-                <IconButton onClick={() => setIndex((index) => index + 1)} disabled={playing || index >= positions.length - 1}>
-                  <FastForwardIcon />
-                </IconButton>
-                {formatTime(positions[index].fixTime, 'seconds')}
-              </div>
-            </>
-          ) : (
+          {/* Collapsed content */}
+          {positions.length ? (<div hidden={expanded}>
+            <Typography variant="subtitle1" align="center">
+              {deviceName}
+            </Typography>
+            <Slider
+              className={classes.slider}
+              max={positions.length - 1}
+              step={null}
+              marks={positions.map((_, index) => ({ value: index }))}
+              value={index}
+              onChange={(_, index) => setIndex(index)}
+            />
+            <div className={classes.controls}>
+              {`${index + 1}/${positions.length}`}
+              <IconButton
+                onClick={() => setIndex((index) => index - 1)}
+                disabled={playing || index <= 0}
+              >
+                <FastRewindIcon />
+              </IconButton>
+              <IconButton
+                onClick={() => setPlaying(!playing)}
+                disabled={index >= positions.length - 1}
+              >
+                {playing ? <PauseIcon /> : <PlayArrowIcon />}
+              </IconButton>
+              <IconButton
+                onClick={() => setIndex((index) => index + 1)}
+                disabled={playing || index >= positions.length - 1}
+              >
+                <FastForwardIcon />
+              </IconButton>
+              {formatTime(positions[index].fixTime, "seconds")}
+            </div>
+          </div>) : null}
+
+          {/* Expanded content */}
+          <div hidden={!expanded}>
             <ReportFilter onShow={onShow} deviceType="single" loading={loading} />
-          )}
+          </div>
         </Paper>
+
       </div>
       {showCard && index < positions.length && (
         <StatusCard
