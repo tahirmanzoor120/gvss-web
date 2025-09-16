@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import {
   FormControl, InputLabel, Select, MenuItem, Table, TableHead, TableRow, TableCell, TableBody, Link, IconButton,
@@ -62,12 +62,6 @@ const EventReportPage = () => {
   const [loading, setLoading] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
   const [position, setPosition] = useState(null);
-
-  useEffect(() => {
-    if (!eventTypes.length) {
-      updateReportParams(searchParams, setSearchParams, 'eventType', ['allEvents']);
-    }
-  }, [searchParams, setSearchParams, eventTypes])
 
   useEffectAsync(async () => {
     if (selectedItem) {
