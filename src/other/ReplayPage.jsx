@@ -213,7 +213,7 @@ const ReplayPage = () => {
                   <FastRewindIcon />
                 </IconButton>
                 <IconButton onClick={() => setPlaying(!playing)} disabled={index >= positions.length - 1}>
-                  {playing ? <PauseIcon /> : <PlayArrowIcon /> }
+                  {playing ? <PauseIcon /> : <PlayArrowIcon />}
                 </IconButton>
                 <IconButton onClick={() => setIndex((index) => index + 1)} disabled={playing || index >= positions.length - 1}>
                   <FastForwardIcon />
@@ -223,9 +223,8 @@ const ReplayPage = () => {
             </>
           ) : (
             <ReportFilter onShow={onShow} deviceType="single" loading={loading} />
-          </div>
+          )}
         </Paper>
-
       </div>
       {showCard && index < positions.length && (
         <StatusCard
