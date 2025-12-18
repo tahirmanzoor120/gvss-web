@@ -42,7 +42,8 @@
     "build": "vite build",
     "generate-pwa-assets": "pwa-assets-generator --preset minimal public/logo.svg",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "deploy": "scp -r build gvss:/opt/traccar/ && ssh gvss 'ts=$(date +%Y%m%d_%H%M%S) && mv /opt/traccar/web /opt/traccar/web_backup_$ts && mv /opt/traccar/build /opt/traccar/web'"
   },
   "browserslist": {
     "production": [

@@ -1,5 +1,9 @@
 {
-    "sharedLoading": "Laden...",
+    "notificatorWhatsapp": "WhatsApp",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Laden...",
     "sharedHide": "Verberg",
     "sharedSave": "Opslaan",
     "sharedSaved": "Opgeslagen",

@@ -1,5 +1,9 @@
 {
-    "sharedLoading": "Բեռնվում է",
+    "notificatorWhatsapp": "WhatsApp",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Բեռնվում է",
     "sharedHide": "Թաքցնել",
     "sharedSave": "Պահպանել",
     "sharedSaved": "Saved",

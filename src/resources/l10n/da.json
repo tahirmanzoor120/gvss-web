@@ -1,5 +1,9 @@
 {
-    "sharedLoading": "Indlæser... ",
+    "notificatorWhatsapp": "WhatsApp",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Indlæser... ",
     "sharedHide": "Skjul",
     "sharedSave": "Gem",
     "sharedSaved": "Saved",

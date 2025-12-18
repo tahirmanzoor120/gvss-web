@@ -1,5 +1,9 @@
 {
-    "sharedLoading": "در حال بارگزارى ...",
+    "notificatorWhatsapp": "WhatsApp",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"در حال بارگزارى ...",
     "sharedHide": "مخفی",
     "sharedSave": "ذخيره",
     "sharedSaved": "ذخیره شد",

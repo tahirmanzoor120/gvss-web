@@ -1,5 +1,9 @@
 {
-    "sharedLoading": "로딩중...",
+    "notificatorWhatsapp": "WhatsApp",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"로딩중...",
     "sharedHide": "숨기기",
     "sharedSave": "저장",
     "sharedSaved": "Saved",

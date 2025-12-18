@@ -1,5 +1,9 @@
 {
-    "sharedLoading": "加载",
+    "notificatorWhatsapp": "WhatsApp",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"加载",
     "sharedHide": "隐藏",
     "sharedSave": "保存",
     "sharedSaved": "已保存",

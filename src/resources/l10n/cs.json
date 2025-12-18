@@ -1,5 +1,9 @@
 {
-    "sharedLoading": "Načítám...",
+    "notificatorWhatsapp": "WhatsApp",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Načítám...",
     "sharedHide": "Skrýt",
     "sharedSave": "Uložit",
     "sharedSaved": "Uloženo",

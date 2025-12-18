@@ -1,5 +1,9 @@
 {
-    "sharedLoading": "Kraunasi..",
+    "notificatorWhatsapp": "WhatsApp",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Kraunasi..",
     "sharedHide": "Paslėpti",
     "sharedSave": "Išsaugoti",
     "sharedSaved": "Įrašyta",

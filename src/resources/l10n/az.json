@@ -1,5 +1,9 @@
 {
-    "sharedLoading": "Yükləmə...",
+    "notificatorWhatsapp": "WhatsApp",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Yükləmə...",
     "sharedHide": "Gizlətmək",
     "sharedSave": "Yadda saxlamaq",
     "sharedSaved": "Saved",

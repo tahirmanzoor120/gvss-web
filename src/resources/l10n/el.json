@@ -1,5 +1,9 @@
 {
-    "sharedLoading": "Φόρτωση...",
+    "notificatorWhatsapp": "WhatsApp",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Φόρτωση...",
     "sharedHide": "Απόκρυψη",
     "sharedSave": "Αποθήκευση",
     "sharedSaved": "Αποθηκεύτηκε",

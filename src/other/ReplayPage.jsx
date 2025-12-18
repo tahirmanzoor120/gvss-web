@@ -223,8 +223,9 @@ const ReplayPage = () => {
             </>
           ) : (
             <ReportFilter onShow={onShow} deviceType="single" loading={loading} />
-          )}
+          </div>
         </Paper>
+
       </div>
       {showCard && index < positions.length && (
         <StatusCard

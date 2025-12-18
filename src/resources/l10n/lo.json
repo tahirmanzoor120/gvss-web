@@ -1,5 +1,9 @@
 {
-    "sharedLoading": "ກຳລັງໂຫລດ...",
+    "notificatorWhatsapp": "WhatsApp",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"ກຳລັງໂຫລດ...",
     "sharedHide": "Hide",
     "sharedSave": "ບັນທຶກ",
     "sharedSaved": "Saved",

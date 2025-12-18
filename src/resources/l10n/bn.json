@@ -1,5 +1,9 @@
 {
-    "sharedLoading": "লোড হচ্ছে ...",
+    "notificatorWhatsapp": "WhatsApp",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"লোড হচ্ছে ...",
     "sharedHide": "লুকিয়ে রাখুন",
     "sharedSave": " সংরক্ষণ করুন",
     "sharedSaved": "Saved",

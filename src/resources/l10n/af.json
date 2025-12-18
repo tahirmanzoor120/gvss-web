@@ -1,5 +1,9 @@
 {
-    "sharedLoading": "Laai tans...",
+    "notificatorWhatsapp": "WhatsApp",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Laai tans...",
     "sharedHide": "Verberg",
     "sharedSave": "Stoor",
     "sharedSaved": "Saved",
