@@ -10,8 +10,11 @@ export default defineConfig(() => ({
     proxy: {
       // '/api/socket': 'ws://localhost:8082',
       // '/api': 'http://localhost:8082',
-      '/api/socket': 'wss://live.gvss.pk',
-      '/api': 'https://live.gvss.pk',
+      // '/api/socket': 'wss://live.gvss.pk',
+      // '/api': 'https://live.gvss.pk',
+      '/api/socket': 'ws://178.128.152.90:8082',
+      '/api': 'http://178.128.152.90:8082',
+
     },
   },
   build: {
