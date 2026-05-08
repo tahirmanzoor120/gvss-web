@@ -26,6 +26,7 @@ import SendIcon from '@mui/icons-material/Send';
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
 import PendingIcon from '@mui/icons-material/Pending';
+import LocalParkingIcon from '@mui/icons-material/LocalParking';
 
 import { useTranslation } from './LocalizationProvider';
 import RemoveDialog from './RemoveDialog';
@@ -173,6 +174,26 @@ const StatusCard = ({ deviceId, position, onClose, disableActions, desktopPaddin
     navigate(`/settings/geofence/${item.id}`);
   }, [navigate, position]);
 
+  const toggleParkingMode = useCatchCallback(async () => {
+    const updatedAttributes = {
+      ...device.attributes,
+      parkingMode: !device.attributes.parkingMode,
+    };
+    const response = await fetchOrThrow(`/api/devices/${device.id}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        ...device,
+        attributes: updatedAttributes,
+      }),
+    });
+
+    if (response.ok) {
+      const updatedDevice = await response.json();
+      dispatch(devicesActions.update([updatedDevice]));
+    }
+  }, [device, dispatch]);
+
   return (
     <>
       <div className={classes.root}>
@@ -265,6 +286,15 @@ const StatusCard = ({ deviceId, position, onClose, disableActions, desktopPaddin
                     disabled={disableActions}
                   >
                     <SendIcon />
+                  </IconButton>
+                </Tooltip>
+                <Tooltip title={`Parking Mode ${device.attributes.parkingMode ? 'On' : 'Off'}`}>
+                  <IconButton
+                    color={device.attributes.parkingMode ? "error" : "default"}
+                    onClick={() => toggleParkingMode()}
+                    disabled={disableActions || deviceReadonly}
+                  >
+                    <LocalParkingIcon />
                   </IconButton>
                 </Tooltip>
                 <Tooltip title={t('sharedEdit')}>
