@@ -1,5 +1,12 @@
 {
-    "sharedLoading": "Ачааллаж байна...",
+    "eventIgnitionInParking": "Ignition in Parking",
+    "eventTamperingInParking": "Tampering in Parking",
+    "eventDeviceExpiration": "Device Expiration",
+    "eventDeviceExpirationReminder": "Device Expiration Reminder",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Ачааллаж байна...",
     "sharedHide": "Нуух",
     "sharedSave": "Хадгалах",
     "sharedSaved": "Saved",

@@ -1,5 +1,12 @@
 {
-    "sharedLoading": "ലോഡുചെയ്യുന്നു ..",
+    "eventIgnitionInParking": "Ignition in Parking",
+    "eventTamperingInParking": "Tampering in Parking",
+    "eventDeviceExpiration": "Device Expiration",
+    "eventDeviceExpirationReminder": "Device Expiration Reminder",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"ലോഡുചെയ്യുന്നു ..",
     "sharedHide": "മറയ്ക്കുക",
     "sharedSave": "സേവ്",
     "sharedSaved": "Saved",

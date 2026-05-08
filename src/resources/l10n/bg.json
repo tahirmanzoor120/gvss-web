@@ -1,5 +1,12 @@
 {
-    "sharedLoading": "Зареждане...",
+    "eventIgnitionInParking": "Ignition in Parking",
+    "eventTamperingInParking": "Tampering in Parking",
+    "eventDeviceExpiration": "Device Expiration",
+    "eventDeviceExpirationReminder": "Device Expiration Reminder",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"Зареждане...",
     "sharedHide": "Скрий",
     "sharedSave": "Запази",
     "sharedSaved": "Saved",

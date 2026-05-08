@@ -1,5 +1,12 @@
 {
-    "sharedLoading": "កំពុងផ្ទុក...",
+    "eventIgnitionInParking": "Ignition in Parking",
+    "eventTamperingInParking": "Tampering in Parking",
+    "eventDeviceExpiration": "Device Expiration",
+    "eventDeviceExpirationReminder": "Device Expiration Reminder",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"កំពុងផ្ទុក...",
     "sharedHide": "លាក់",
     "sharedSave": "រក្សារទុក",
     "sharedSaved": "Saved",

@@ -1,5 +1,12 @@
 {
-    "sharedLoading": "লোড হচ্ছে ...",
+    "eventIgnitionInParking": "Ignition in Parking",
+    "eventTamperingInParking": "Tampering in Parking",
+    "eventDeviceExpiration": "Device Expiration",
+    "eventDeviceExpirationReminder": "Device Expiration Reminder",
+    "eventDeviceOfflineReminder": "Offline Reminder",
+    "eventInactiveDeviceDeleted": "Device Deleted",
+    "notificatorCall": "Call",
+    "sharedLoading":"লোড হচ্ছে ...",
     "sharedHide": "লুকিয়ে রাখুন",
     "sharedSave": " সংরক্ষণ করুন",
     "sharedSaved": "Saved",
