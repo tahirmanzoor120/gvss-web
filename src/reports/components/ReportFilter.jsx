@@ -3,13 +3,14 @@ import { useSearchParams } from 'react-router-dom';
 import {
   FormControl, InputLabel, Select, MenuItem, Button, TextField, Typography,
 } from '@mui/material';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import dayjs from 'dayjs';
 import { useTranslation } from '../../common/components/LocalizationProvider';
 import useReportStyles from '../common/useReportStyles';
 import SplitButton from '../../common/components/SplitButton';
 import SelectField from '../../common/components/SelectField';
 import { useRestriction } from '../../common/util/permissions';
+import { reportsActions, devicesActions } from '../../store';
 
 export const updateReportParams = (searchParams, setSearchParams, key, values) => {
   const newParams = new URLSearchParams(searchParams);
@@ -27,6 +28,40 @@ const ReportFilter = ({
   const t = useTranslation();
 
   const [searchParams, setSearchParams] = useSearchParams();
+
+  const dispatch = useDispatch();
+
+  const _deviceId = useSelector((state) => state.devices.selectedId);
+  const _deviceIds = useSelector((state) => state.devices.selectedIds);
+  const _groupIds = useSelector((state) => state.reports.groupIds);
+  const _period = useSelector((state) => state.reports.period);
+  const _from = useSelector((state) => state.reports.from);
+  const _to = useSelector((state) => state.reports.to);
+
+  useEffect(() => {
+    const newParams = new URLSearchParams(searchParams);
+    if (_deviceId) {
+      newParams.delete('deviceId');
+      [_deviceId].filter((id) => id).forEach((value) => newParams.append('deviceId', value));
+    }
+
+    if (_deviceIds) {
+      newParams.delete('deviceId');
+      _deviceIds.filter((id) => id).forEach((value) => newParams.append('deviceId', value));
+    }
+
+    if (_groupIds) {
+      newParams.delete('groupId');
+      _groupIds.filter((id) => id).forEach((value) => newParams.append('groupId', value));
+    }
+
+    setSearchParams(newParams, { replace: true });
+
+    setPeriod(_period);
+    setCustomFrom(_from);
+    setCustomTo(_to);
+
+  }, [])
 
   const readonly = useRestriction('readonly');
 
@@ -159,6 +194,7 @@ const ReportFilter = ({
             onChange={(e) => {
               const values = deviceType === 'multiple' ? e.target.value : [e.target.value].filter((id) => id);
               updateReportParams(searchParams, setSearchParams, 'deviceId', values);
+              dispatch(deviceType === 'multiple' ? devicesActions.selectIds(e.target.value) : devicesActions.selectId(e.target.value))
             }}
             multiple={deviceType === 'multiple'}
             fullWidth
@@ -174,6 +210,7 @@ const ReportFilter = ({
             onChange={(e) => {
               const values = e.target.value;
               updateReportParams(searchParams, setSearchParams, 'groupId', values);
+              dispatch(reportsActions.updateGroupIds(e.target.value));
             }}
             multiple
             fullWidth
@@ -185,7 +222,10 @@ const ReportFilter = ({
           <div className={classes.filterItem}>
             <FormControl fullWidth>
               <InputLabel>{t('reportPeriod')}</InputLabel>
-              <Select label={t('reportPeriod')} value={period} onChange={(e) => setPeriod(e.target.value)}>
+              <Select label={t('reportPeriod')} value={period} onChange={(e) => {
+                setPeriod(e.target.value);
+                dispatch(reportsActions.updatePeriod(e.target.value));
+                }}>
                 <MenuItem value="today">{t('reportToday')}</MenuItem>
                 <MenuItem value="yesterday">{t('reportYesterday')}</MenuItem>
                 <MenuItem value="thisWeek">{t('reportThisWeek')}</MenuItem>
@@ -202,7 +242,10 @@ const ReportFilter = ({
                 label={t('reportFrom')}
                 type="datetime-local"
                 value={customFrom}
-                onChange={(e) => setCustomFrom(e.target.value)}
+                onChange={(e) => {
+                  setCustomFrom(e.target.value);
+                  dispatch(reportsActions.updateFrom(e.target.value));
+                }}
                 fullWidth
               />
             </div>
@@ -213,7 +256,10 @@ const ReportFilter = ({
                 label={t('reportTo')}
                 type="datetime-local"
                 value={customTo}
-                onChange={(e) => setCustomTo(e.target.value)}
+                onChange={(e) => {
+                  setCustomTo(e.target.value);
+                  dispatch(reportsActions.updateTo(e.target.value))
+                }}
                 fullWidth
               />
             </div>
