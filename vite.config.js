@@ -19,6 +19,9 @@ export default defineConfig(() => ({
   },
   build: {
     outDir: 'build',
+    rollupOptions: {
+      external: ['workbox-window'],
+    },
   },
   plugins: [
     svgr(),
